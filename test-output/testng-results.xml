@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-20T19:37:04 IST" name="Default suite" finished-at="2023-01-20T19:37:11 IST" duration-ms="7773">
+    <groups>
+    </groups>
+    <test started-at="2023-01-20T19:37:04 IST" name="Default test" finished-at="2023-01-20T19:37:11 IST" duration-ms="7773">
+      <class name="HeaderFooterVerificationTest.VarificationOfFooterObjectTest">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@56cdfb3b]" started-at="2023-01-20T19:37:04 IST" name="BrowserLunch" finished-at="2023-01-20T19:37:11 IST" duration-ms="7464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="AllFooterLink()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@56cdfb3b]" started-at="2023-01-20T19:37:11 IST" name="AllFooterLink" finished-at="2023-01-20T19:37:11 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllFooterLink -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@56cdfb3b]" started-at="2023-01-20T19:37:11 IST" name="BrowserClose" finished-at="2023-01-20T19:37:11 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- HeaderFooterVerificationTest.VarificationOfFooterObjectTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
