@@ -3,16 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="HeaderFooterVerificationTest.VerificationOfHeaderObjectTest">
+      <class name="Account.AccountCreationTestCAse">
         <methods>
-          <include name="CurrencyDropDown"/>
+          <include name="InValidLoginTest" invocation-numbers="0 1 2"/>
           <include name="BrowserClose"/>
-          <include name="Contacts"/>
-          <include name="DesktopLinks"/>
+          <include name="RegisterUser"/>
           <include name="BrowserLunch"/>
-          <include name="VerificationOfHeaderLinks"/>
         </methods>
-      </class> <!-- HeaderFooterVerificationTest.VerificationOfHeaderObjectTest -->
+      </class> <!-- Account.AccountCreationTestCAse -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

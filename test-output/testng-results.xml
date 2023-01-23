@@ -1,25 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-20T19:37:04 IST" name="Default suite" finished-at="2023-01-20T19:37:11 IST" duration-ms="7773">
+  <suite started-at="2023-01-23T19:10:47 IST" name="Suite" finished-at="2023-01-23T19:12:23 IST" duration-ms="95298">
     <groups>
     </groups>
-    <test started-at="2023-01-20T19:37:04 IST" name="Default test" finished-at="2023-01-20T19:37:11 IST" duration-ms="7773">
-      <class name="HeaderFooterVerificationTest.VarificationOfFooterObjectTest">
-        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@56cdfb3b]" started-at="2023-01-20T19:37:04 IST" name="BrowserLunch" finished-at="2023-01-20T19:37:11 IST" duration-ms="7464" status="PASS">
+    <test started-at="2023-01-23T19:10:47 IST" name="Test" finished-at="2023-01-23T19:12:23 IST" duration-ms="95298">
+      <class name="HeaderFooterVerificationTest.VerificationOfHeaderObjectTest">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:10:47 IST" name="BrowserLunch" finished-at="2023-01-23T19:10:57 IST" duration-ms="9232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserLunch -->
-        <test-method signature="AllFooterLink()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@56cdfb3b]" started-at="2023-01-20T19:37:11 IST" name="AllFooterLink" finished-at="2023-01-20T19:37:11 IST" duration-ms="33" status="PASS">
+        <test-method signature="CurrencyDropDown()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:10:57 IST" name="CurrencyDropDown" finished-at="2023-01-23T19:10:59 IST" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CurrencyDropDown -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:10:59 IST" name="BrowserClose" finished-at="2023-01-23T19:10:59 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:10:59 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:03 IST" duration-ms="4334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="Contacts()[pri:1, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:03 IST" name="Contacts" finished-at="2023-01-23T19:11:06 IST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contacts -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:06 IST" name="BrowserClose" finished-at="2023-01-23T19:11:06 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:06 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:11 IST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="VerificationOfHeaderLinks()[pri:2, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:11 IST" name="VerificationOfHeaderLinks" finished-at="2023-01-23T19:11:15 IST" duration-ms="3843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerificationOfHeaderLinks -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:15 IST" name="BrowserClose" finished-at="2023-01-23T19:11:15 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:15 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:18 IST" duration-ms="3717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="DesktopLinks()[pri:3, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:18 IST" name="DesktopLinks" finished-at="2023-01-23T19:11:23 IST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopLinks -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VerificationOfHeaderObjectTest@2c35e847]" started-at="2023-01-23T19:11:23 IST" name="BrowserClose" finished-at="2023-01-23T19:11:23 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- HeaderFooterVerificationTest.VerificationOfHeaderObjectTest -->
+      <class name="ItemPriceVerification.ItemPriceVerificationTest">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:ItemPriceVerification.ItemPriceVerificationTest@2dc54ad4]" started-at="2023-01-23T19:12:11 IST" name="BrowserLunch" finished-at="2023-01-23T19:12:15 IST" duration-ms="4072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="PriceVerification()[pri:0, instance:ItemPriceVerification.ItemPriceVerificationTest@2dc54ad4]" started-at="2023-01-23T19:12:15 IST" name="PriceVerification" finished-at="2023-01-23T19:12:23 IST" duration-ms="7367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceVerification -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:ItemPriceVerification.ItemPriceVerificationTest@2dc54ad4]" started-at="2023-01-23T19:12:23 IST" name="BrowserClose" finished-at="2023-01-23T19:12:23 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- ItemPriceVerification.ItemPriceVerificationTest -->
+      <class name="HeaderFooterVerificationTest.VarificationOfFooterObjectTest">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@4b8ee4de]" started-at="2023-01-23T19:11:23 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:27 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="AllFooterLink()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@4b8ee4de]" started-at="2023-01-23T19:11:27 IST" name="AllFooterLink" finished-at="2023-01-23T19:11:27 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllFooterLink -->
-        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@56cdfb3b]" started-at="2023-01-20T19:37:11 IST" name="BrowserClose" finished-at="2023-01-20T19:37:11 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:HeaderFooterVerificationTest.VarificationOfFooterObjectTest@4b8ee4de]" started-at="2023-01-23T19:11:27 IST" name="BrowserClose" finished-at="2023-01-23T19:11:28 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserClose -->
       </class> <!-- HeaderFooterVerificationTest.VarificationOfFooterObjectTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Account.AccountCreationTestCAse">
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:28 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:38 IST" duration-ms="10361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="InValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:38 IST" name="InValidLoginTest" data-provider="InvalidCredential" finished-at="2023-01-23T19:11:39 IST" duration-ms="1169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0000000000000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:39 IST" name="BrowserClose" finished-at="2023-01-23T19:11:39 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:39 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:43 IST" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="InValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:43 IST" name="InValidLoginTest" data-provider="InvalidCredential" finished-at="2023-01-23T19:11:44 IST" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@#$%^&#*Y&$*&$*&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:44 IST" name="BrowserClose" finished-at="2023-01-23T19:11:44 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:44 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:48 IST" duration-ms="3787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="InValidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:48 IST" name="InValidLoginTest" data-provider="InvalidCredential" finished-at="2023-01-23T19:11:50 IST" duration-ms="1758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@abcmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sdfef@544657]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginTest -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:50 IST" name="BrowserClose" finished-at="2023-01-23T19:11:50 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="BrowserLunch()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:50 IST" name="BrowserLunch" finished-at="2023-01-23T19:11:54 IST" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLunch -->
+        <test-method signature="RegisterUser()[pri:1, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:11:54 IST" name="RegisterUser" finished-at="2023-01-23T19:12:11 IST" duration-ms="16826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:Account.AccountCreationTestCAse@27f981c6]" started-at="2023-01-23T19:12:11 IST" name="BrowserClose" finished-at="2023-01-23T19:12:11 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- Account.AccountCreationTestCAse -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

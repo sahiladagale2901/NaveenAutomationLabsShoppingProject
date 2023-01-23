@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="HeaderFooterVerificationTest.VerificationOfHeaderObjectTest">
+      <class name="Account.AccountCreationTestCAse">
         <methods>
+          <include name="InValidLoginTest" invocation-numbers="0 1 2"/>
           <include name="BrowserClose"/>
-          <include name="Contacts"/>
-          <include name="DesktopLinks"/>
+          <include name="RegisterUser"/>
           <include name="BrowserLunch"/>
-          <include name="SetUp"/>
-          <include name="tearDown"/>
-          <include name="endReport"/>
-          <include name="VerificationOfHeaderLinks"/>
         </methods>
-      </class> <!-- HeaderFooterVerificationTest.VerificationOfHeaderObjectTest -->
+      </class> <!-- Account.AccountCreationTestCAse -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

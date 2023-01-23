@@ -44,7 +44,8 @@ public class VerificationOfHeaderObjectTest extends BaseClass {
 	@Test(priority = 3)
 	public void DesktopLinks() throws MalformedURLException, IOException {
 		VerificationOfHeaderObject vho = new VerificationOfHeaderObject(driver);
-		CommonMethod.ActionClass(driver, vho.DesktopDropdown());
+		//CommonMethod.ActionClass(driver, vho.DesktopDropdown());
+		vho.DesktopDropdown().click();
 		vho.ShowAllDesktopList().click();
 		CommonMethod.LinkVerify(vho.AllLinksOnDeskTopIcon());
 	}
